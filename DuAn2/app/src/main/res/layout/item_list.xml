@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="160dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#99FFCC"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/albumart"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="top"
+        android:layout_margin="0dp"
+        android:src="#770000"
+        />
+    <TextView
+        android:id="@+id/album_name"
+        android:layout_height="25dp"
+        android:layout_width="match_parent"
+        android:textColor="#660000"
+        android:layout_below="@id/albumart"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:typeface="sans"
+        android:text="Album"
+        android:scrollHorizontally="true"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+    <TextView
+        android:id="@+id/songs_num"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/album_name"
+        android:layout_marginLeft="5dp"
+        android:textColor="#660000"
+        android:textSize="10sp"
+        android:text="artist"
+        android:typeface="sans"
+        android:scrollHorizontally="true"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+</LinearLayout>
